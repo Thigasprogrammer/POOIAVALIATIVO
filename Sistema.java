@@ -12,7 +12,7 @@ public class Sistema {
         double maiorpeso = -1; // váriavel usada no for do print, para salvar o peso do automovel mais pesado, definido como -1 para o primeiro peso ja assumir a variavel (afinal não existe peso <0)
         String dadospesado = ""; // váriavel usada no for do print, para salvar os dados do automovel mais pesado, definido como vazio para caso o usuario começar com ZZZZZZZZ não imprimir nada
         Scanner teclado = new Scanner(System.in);
-        ArrayList<Automovel> lst_autos = new ArrayList<>();
+        ArrayList<Automovel> lst_autos = new ArrayList<Automovel>();
 
         // processamento
         System.out.print("Digite a placa do automóvel, caso deseje finalizar o programa digite ZZZZZZZZ: ");
@@ -31,8 +31,8 @@ public class Sistema {
             quantidade_passageiros = Integer.parseInt(teclado.nextLine()); // passando String para inteiro para usar entrada de dados de arquivo externo, evitar o "\n"
 
 
-            while(quantidade_passageiros > 5){
-            	System.out.print("Número máximo de passageiros é 5, digite novamente: ");
+            while(quantidade_passageiros < 0 || quantidade_passageiros > 5){
+            	System.out.print("Número de passageiros é entre 0 e 5, digite novamente: ");
             	quantidade_passageiros = Integer.parseInt(teclado.nextLine()); // passando String para inteiro para usar entrada de dados de arquivo externo, evitar o "\n"
 
             }// while verificação1
@@ -41,8 +41,8 @@ public class Sistema {
             quantidade_litros_gasolina = Integer.parseInt(teclado.nextLine()); // passando String para inteiro para usar entrada de dados de arquivo externo, evitar o "\n"
 
 
-            while(quantidade_litros_gasolina > 40){
-            	System.out.print("Número máximo de litros de gasolina é de 40L, digite novamente: ");
+            while(quantidade_litros_gasolina < 0|| quantidade_litros_gasolina > 40){
+            	System.out.print("Número de litros de gasolina é entre 0L e 40L, digite novamente: ");
             	quantidade_litros_gasolina = Integer.parseInt(teclado.nextLine()); // passando String para inteiro para usar entrada de dados de arquivo externo, evitar o "\n"
             }// while verificação2
 
