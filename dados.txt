@@ -1,0 +1,126 @@
+ABC1234
+Fiat Uno
+850.5
+5
+22
+DEF5678
+Volkswagen Gol
+950.0
+5
+30
+GHI9012
+Chevrolet Onix
+980.3
+5
+35
+JKL3456
+Ford Ka
+940.0
+5
+40
+MNO7890
+Renault Kwid
+800.2
+5
+38
+PQR1234
+Hyundai HB20
+920.0
+4
+36
+STU5678
+Toyota Corolla
+1250.5
+2
+40
+VWX9012
+Honda Civic
+1300.2
+5
+39
+YZA3456
+Peugeot 208
+890.4
+3
+31
+BCD7890
+Citroën C3
+870.7
+2
+30
+EFG2345
+Nissan Versa
+980.8
+5
+34
+HIJ6789
+Jeep Renegade
+1400.0
+1
+40
+KLM0123
+Fiat Argo
+905.3
+4
+29
+NOP4567
+Volkswagen Polo
+915.6
+3
+33
+QRS8901
+Chevrolet Tracker
+1350.9
+5
+37
+TUV2345
+Toyota Yaris
+935.2
+2
+28
+WXY6789
+Renault Logan
+960.5
+4
+32
+ZAB0123
+Hyundai Creta
+1375.0
+5
+40
+CDE4567
+Kia Picanto
+850.0
+1
+25
+FGH8901
+Ford EcoSport
+1340.8
+3
+38
+IJK2345
+Nissan March
+875.6
+2
+26
+LMN6789
+Chevrolet Spin
+1245.3
+5
+40
+OPQ0123
+Fiat Mobi
+800.1
+1
+22
+RST4567
+Peugeot 2008
+1280.4
+4
+35
+UVW8901
+Volkswagen T-Cross
+1320.6
+5
+40
+ZZZZZZZZ
