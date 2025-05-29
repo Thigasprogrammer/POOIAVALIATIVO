@@ -26,13 +26,18 @@ public class Sistema {
             System.out.print("Digite o peso de fábrica do automóvel: ");
             peso_fabrica = Double.parseDouble(teclado.nextLine()); // passando String para double para usar entrada de dados de arquivo externo, evitar o "\n"
 
+            while(peso_fabrica < 0){ // if para verificar se o usuario colocou um número dentro do intervalo pedido
+            	System.out.print("Número de peso do automóvel deve ser um inteiro positivo, digite novamente: ");
+            	peso_fabrica = Double.parseDouble(teclado.nextLine());
+            }// while verificação0
+
             
             System.out.print("Digite a quantidade de passageiros do automóvel: ");
             quantidade_passageiros = Integer.parseInt(teclado.nextLine()); // passando String para inteiro para usar entrada de dados de arquivo externo, evitar o "\n"
 
 
-            while(quantidade_passageiros < 0 || quantidade_passageiros > 5){
-            	System.out.print("Número de passageiros é entre 0 e 5, digite novamente: ");
+            while(quantidade_passageiros <= 0 || quantidade_passageiros > 5){ // if para verificar se o usuario colocou um número dentro do intervalo pedido
+            	System.out.print("Número de passageiros é entre 1 e 5, digite novamente: ");
             	quantidade_passageiros = Integer.parseInt(teclado.nextLine()); // passando String para inteiro para usar entrada de dados de arquivo externo, evitar o "\n"
 
             }// while verificação1
@@ -41,8 +46,8 @@ public class Sistema {
             quantidade_litros_gasolina = Integer.parseInt(teclado.nextLine()); // passando String para inteiro para usar entrada de dados de arquivo externo, evitar o "\n"
 
 
-            while(quantidade_litros_gasolina < 0|| quantidade_litros_gasolina > 40){
-            	System.out.print("Número de litros de gasolina é entre 0L e 40L, digite novamente: ");
+            while(quantidade_litros_gasolina < 0|| quantidade_litros_gasolina > 50){ // if para verificar se o usuario colocou um número dentro do intervalo pedido
+            	System.out.print("Número de litros de gasolina é entre 0L e 50L, digite novamente: ");
             	quantidade_litros_gasolina = Integer.parseInt(teclado.nextLine()); // passando String para inteiro para usar entrada de dados de arquivo externo, evitar o "\n"
             }// while verificação2
 
