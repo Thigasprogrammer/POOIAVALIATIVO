@@ -60,8 +60,6 @@ public class Sistema {
             placa = teclado.nextLine();
         }
 
-        System.out.println("\n"); // quebra de linha para ficar mais facil visualização
-
         for(int i = 0; i < lst_autos.size(); i++){
         	System.out.println(lst_autos.get(i));
         	if(lst_autos.get(i).pesoTotal() > maiorpeso){ // explicação if(peso da variavel Automóvel auto > maiorpeso) na primeira volta do for sempre vai assumir o peso do primeiro auto pois ela começa como -1
@@ -69,8 +67,10 @@ public class Sistema {
         		dadospesado = lst_autos.get(i).toString(); // salva os dados do auto (que estão no toString) em uma váriavel tipo String, para ser chamada depois
         	}
         }
-        System.out.println("------------------DADOS DO AUTOMÓVEL DE MAIOR PESO------------------");
-        System.out.print(dadospesado);
+        if(maiorpeso > -1){
+            System.out.println("\n"); // quebra de linha para ficar mais facil visualização
+            System.out.println("------------------DADOS DO AUTOMÓVEL DE MAIOR PESO------------------");
+            System.out.print(dadospesado);}
 
 
         teclado.close();
