@@ -14,14 +14,14 @@ public class Sistema{
 		String numero = "";
 		String titular = "";
 		String banco = "";
-		int codi_seg = "";
+		int codi_seg;
 
 		//processamento
 
 		System.out.print("digite o número do cartão, digite XXX para finalizar o programa: ");
 		numero = teclado.nextLine();
 
-		while(!(numero.equals("XXX")){
+		while(!(numero.equals("XXX"))){
 
 		System.out.print("digite o titular do cartão: ");
 		titular = teclado.nextLine();
@@ -36,15 +36,15 @@ public class Sistema{
 		LocalDate emissao = LocalDate.parse(scanner.nextLine(), formato);
 
 		System.out.print("digite a data de validade do cartão, no modelo dd/mm/aaaa: ");
-		LocalDate emissao = LocalDate.parse(scanner.nextLine(), formato);
+		LocalDate validade = LocalDate.parse(scanner.nextLine(), formato);
 
-		LocalDate dataemissao = local
+		CartaoCredito cartao = new CartaoCredito(numero, titular, banco, codi_seg, emissao, validade);
+		lst_cartao.add(cartao);
 
+		System.out.print("digite o número do cartão, digite XXX para finalizar o programa: ");
+		numero = teclado.nextLine();
 
-		}
-
-
-
+		}//while
 
 	}//main
 }//class
