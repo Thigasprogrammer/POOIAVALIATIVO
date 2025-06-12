@@ -1,7 +1,7 @@
 public class UF{
-	String nome;
-	String sigla;
-	String regiao;
+	public String nome;
+	public String sigla;
+	public String regiao;
 
 	public UF(String nome, String sigla, String regiao){
 		this.nome = nome;

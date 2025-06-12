@@ -1,0 +1,88 @@
+Acre
+AC
+N
+Alagoas
+AL
+NE
+Amapá
+AP
+N
+Amazonas
+AM
+N
+Bahia
+BA
+NE
+Ceará
+CE
+NE
+Distrito Federal
+DF
+CO
+Espírito Santo
+ES
+SE
+Goiás
+GO
+CO
+Maranhão
+MA
+NE
+Mato Grosso
+MT
+CO
+Mato Grosso do Sul
+MS
+CO
+Minas Gerais
+MG
+SE
+Pará
+PA
+N
+Paraíba
+PB
+NE
+Paraná
+PR
+S
+Pernambuco
+PE
+NE
+Piauí
+PI
+NE
+Rio de Janeiro
+RJ
+SE
+Rio Grande do Norte
+RN
+NE
+Rio Grande do Sul
+RS
+S
+Rondônia
+RO
+N
+Roraima
+RR
+N
+Santa Catarina
+SC
+S
+São Paulo
+SP
+SE
+Sergipe
+SE
+NE
+Tocantins
+TO
+N
+sair
+N
+NE
+CO
+SE
+S
+sair

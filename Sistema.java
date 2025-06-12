@@ -32,19 +32,20 @@ public class Sistema{
 
 		while(!(pesquisa.equalsIgnoreCase("sair"))){ // consulta
 			if(hmcadastros.containsKey(pesquisa)){ // consulta por uf
-				System.out.print(hmcadastros.get(pesquisa).toString());
+				System.out.println(hmcadastros.get(pesquisa).toString());
 			}
 			else{ //consulta por regiao
 				for(UF uf : hmcadastros.values()){
-					if(uf.regiao.equalsIgnoreCase(pesquisa)) {
-                        System.out.println(uf.toString());
+					if((uf.regiao).equalsIgnoreCase(pesquisa)) {
+						System.out.println(uf.toString());
+					}
 				}
 			}
 			System.out.print("Digite a sigla da UF ou da regiao, que deseja pesquisar, caso deseje sair digite 'sair': ");
 			pesquisa = teclado.nextLine();
-
 		}//while2
-		System.out.print("----------fim do programa----------");
+
+		System.out.print("\n ----------fim do programa----------");
 		teclado.close();
 
 	}//main
