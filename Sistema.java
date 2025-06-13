@@ -21,11 +21,15 @@ public class Sistema{
 			regiao = teclado.nextLine();
 			UF cadastramento = new UF(nome, sigla, regiao);
 			hmcadastros.put(sigla, cadastramento);
+			System.out.println(); // qubra de linha para ficar estético
+
 			System.out.print("Digite o nome da UF, caso deseje sair digite 'sair': ");
 			nome = teclado.nextLine();
 
 
 		}// while
+		System.out.println(); // qubra de linha para ficar estético
+
 
 		System.out.print("Digite a sigla da UF ou da regiao, que deseja pesquisar, caso deseje sair digite 'sair': ");
 		pesquisa = teclado.nextLine();

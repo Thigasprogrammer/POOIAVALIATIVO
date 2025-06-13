@@ -1,4 +1,5 @@
 public class UF{
+	//necessario que as variaveis fiquem public para a chamada delas na outra classe
 	public String nome;
 	public String sigla;
 	public String regiao;
